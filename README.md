@@ -6,7 +6,7 @@ Application is compliled using the nightly release of rust, so it is recommended
 
 
 ### Installation steps
-It is a very simple application and super easy to replicate. In order to get this application running followup the following steps:
+It is a very simple application and super easy to install. In order to get this application running follow the following steps:
 
 1. Clone the repository
 ```bash
