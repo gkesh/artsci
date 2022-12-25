@@ -22,6 +22,15 @@ cd artsci
 sudo ./install.sh
 ```
 
+4. Add the *artsci* command to the terminal shell of your choice
+```bash
+# For my fish terminal, I added the command below to the ~/.config/fish/config.fish
+artsci
+
+# You can also pipe it through lolcat to give the extra rainbow color
+artsci | lolcat
+```
+
 This should install the application to the system, please test by running the cli app and it should display an in-built ascii art.
 
 ```bash
