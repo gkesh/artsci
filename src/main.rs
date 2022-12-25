@@ -1,9 +1,12 @@
 mod reader;
+mod sys;
 
 use rand::Rng;
 
 fn main() {
-    let base_dir: &str = "/home/gkesh/.config/artsci";
+    let user: String = sys::get_user();
+    let base_dir: &str = &format!("/home/{}/.config/artsci", user);
+    println!("{}", base_dir);
     let ars_dir: &str = &format!("{}/ascii", base_dir);
     let ars_files: Vec<String> = reader::read_ars_dir(ars_dir);
 
